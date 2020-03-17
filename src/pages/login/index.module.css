@@ -1,0 +1,40 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 40vw;
+	align-items: flex-start;
+}
+.error {
+	color: red;
+}
+
+.input {
+	padding: 10px;
+	outline: 0;
+	border-radius: 8px;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.submitBtn {
+	padding: 12px 30px;
+	width: auto;
+	background: #1abc9c;
+	border: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 15px;
+	font-size: 14px;
+	/* margin-top: 10px; */
+}
+.submitBtn:hover {
+	background-color: green;
+}
