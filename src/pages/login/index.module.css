@@ -35,6 +35,10 @@
 	font-size: 14px;
 	/* margin-top: 10px; */
 }
+
+.submitBtn:disabled {
+	opacity: 0.4;
+}
 .submitBtn:hover {
 	background-color: green;
 }

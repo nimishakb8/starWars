@@ -89,7 +89,7 @@ function Login(props) {
 					onClick={onSubmit}
 					disabled={isLoading}
 				>
-					Submit
+					{isLoading ? 'Submitting...' : 'Submit'}
 				</button>
 			</div>
 		</div>
